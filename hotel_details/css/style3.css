@@ -1,0 +1,325 @@
+@import 'utilities.css';
+:root{
+    --primary:#5191FA;
+    --dark:#222222;
+    --pure:#FFFFFF;
+    --ternary:#5E6D77;
+    --light:#948282;
+    --secondary:#FA5636;
+    --straw: #dbd3cb;
+    --change: #ce420b;
+    --head: #363535;
+    --lines: #f8f9fa;
+    --box: #d3d3d3;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing: antialised;
+}
+
+header{
+    background: var(--head);
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 10px auto;
+    
+ 
+}
+
+header nav{
+    padding: 1rem;
+}
+
+
+header nav .left a{
+    color: var(--pure);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+
+header nav .left a:hover{
+    color: var(--primary);
+
+}
+
+.logo{
+    margin-right: 3rem;
+    margin-left: -3.5rem;
+    margin-top: -0.2rem;
+    
+}
+
+
+.pages a{
+    margin-right: 2rem;
+    padding:2px; 
+    font-size: 25px;
+    transition: all 0.3s;
+    
+
+}
+
+.cart{
+   margin-left: -1.5rem;
+     
+}
+
+.content-header{
+    padding: 15px;
+    margin-left: -1rem ;
+}
+
+.content-header a{
+    color: var(--dark);
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 800;
+}
+
+
+.content-header a span{
+    color: var(--ternary);
+    font-weight: 400;
+}
+
+hr{
+    width: 100%;
+}
+
+.stars 
+{
+ margin-left: 5px;
+}
+.checked {
+    color: var(--secondary);
+  }
+
+  .top-heading .container h1{
+      margin-left: 0.4rem;
+      margin-top: 1rem;
+  }
+
+  
+
+.top-heading .container h4{
+    margin-left: 0.4rem;
+    margin-top: 10px;
+    font-weight: 400;
+    color: var(--ternary);
+}
+
+.top-heading .container h4 img{
+    margin-right: 0.3rem;
+    
+    
+}
+
+.top-heading .container h4 span{
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.top-heading .container h4 span:hover{
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+.top-heading .gallery-main img{
+    margin-left: 5.8rem;
+}
+
+.top-heading .gallery{
+    margin-left: 13rem;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  
+}
+
+.top-heading .gallery img{
+    margin-right: 5px;
+  
+}
+
+.top-heading .gallery img:hover{
+    cursor: pointer;
+  
+}
+
+span hr{
+    width: 65%;
+    margin-left: 5.6rem;
+    color: var(--box);
+    margin-bottom: 1rem;
+    
+}
+
+.description h2{
+  font-weight: 600;
+  margin-left: 5.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+  
+}
+
+.description p{
+    font-size: 14px;
+    
+    margin-left: 5.5rem;
+    margin-right: 24rem;
+    text-align: justify;
+    color: var(--ternary);
+    
+}
+  
+.description h5{
+    color: var(--primary);
+    margin-left: 5.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.description h5:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.description h2 span{
+    margin-left: 45rem;
+    color: var(--ternary);
+}
+
+.description h2 span:hover{
+    cursor: pointer;
+}
+
+.facilities .options a{
+    text-decoration: none;
+    color: var(--ternary);
+    margin-left: 5.5rem;
+}
+
+.facilities .options .options-1{
+    margin-bottom: 2rem;
+    
+}
+.facilities .options .options-1 a{
+    margin-right: 10rem;
+    
+}
+
+.facilities .options .options-2{
+    margin-bottom: 2rem;
+
+}
+.facilities .options .options-2 a{
+    margin-right: 10rem;
+    
+}
+
+
+.facilities .options .options-3{
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    
+}
+.facilities .options .options-3 a{
+    margin-right: 12rem;
+    margin-left: 8rem;
+}
+
+.facilities .options .options-1 a img{
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.facilities .options .options-2 a img{
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.facilities .options .options-3 a img{
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.rules .left a{
+   text-decoration: none;
+   color: var(--ternary);
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 2rem;
+   margin-left: 5.5rem;
+}
+
+
+.rules .right{
+    margin-left: 20rem;
+    margin-top: -10.5rem;
+}
+
+
+.rules .right a{
+    text-decoration: none;
+   color: var(--ternary);
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 1.8rem;
+}
+
+.rules .right a p{
+    margin-left: -0.1rem;
+    margin-top: 0.5rem;
+}
+.room{
+    margin-bottom: 5rem;
+}
+.container-box{
+    border: 1px solid #d3d3d3;
+    margin-left: 5.5rem;
+    margin-right: 23.8rem;
+    margin-bottom: -8rem;
+}
+
+.container-box .left h3{
+    margin-left: 18rem;
+    margin-top: 1rem;
+}
+
+.container-box .left .images{
+    margin-left: 18rem;
+    margin-top: 1.5rem;
+}
+
+.container-box .left .images img{
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+}
+
+.container-box .left .images img:hover{
+    cursor: pointer;
+    
+}
+
+.container-box .right a button{
+    margin-left: 45rem;
+    margin-top: -6rem;
+}
+
+.room span hr{
+    margin-top: 13rem;
+}
